@@ -1,0 +1,44 @@
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+
+    dependencies {
+        classpath('net.serenity-bdd:serenity-gradle-plugin:2.1.7')
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-core:2.1.5'
+    compile 'net.serenity-bdd:serenity-screenplay:2.1.5'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:2.1.5'
+    compile "net.serenity-bdd:serenity-screenplay-rest:2.1.5"
+    compile 'net.serenity-bdd:serenity-cucumber4:2.1.2'
+    compile 'org.hamcrest:hamcrest-all:1.3'
+    compile 'org.apache.poi:poi:5.2.2'
+    compile 'org.apache.poi:poi-ooxml:5.2.2'
+
+    testCompile 'net.serenity-bdd:serenity-junit:2.1.5'
+    testCompile 'io.cucumber:cucumber-java:4.8.0'
+    testCompile 'io.cucumber:cucumber-junit:4.8.0'
+    testCompile 'junit:junit:4.12'
+
+}
+
+gradle.startParameter.continueOnFailure = true
+
+
+
