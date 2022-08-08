@@ -1,6 +1,6 @@
 # AutomatizacionScreplay
 
-Ejericicio de automatización de servicios con el patron screenplay y Serenity BDD.
+Ejercicio de automatización de servicios con el patron screenplay y Serenity BDD.
 
 
 En este proyecto se va a utilizar lo siguientes herramientas:
