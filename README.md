@@ -10,5 +10,5 @@ En este proyecto se utilizaron las siguientes herramientas:
 
 ## Ejecución del proyecto
 
-Parae ejecutar el programa se clona y se ejecuta con el IDE Intellij IDEA o través de los comandos de Gradle
+Para ejecutar el programa se clona y se ejecuta con el IDE Intellij IDEA o través de los comandos de Gradle
 
